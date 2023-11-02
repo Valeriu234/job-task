@@ -41,7 +41,6 @@ const Articles = () => {
           project_id: '5107de83-f208-4ca4-87ed-9b69d58d16e1',
           lang: 'ru',
           take: 30,
-          // Calculate the new skip value based on the current loaded items
         },
         updateQuery: (prev, { fetchMoreResult }) => {
           if (!fetchMoreResult) return prev;

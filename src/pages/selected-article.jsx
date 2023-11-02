@@ -74,7 +74,7 @@ const SelectedArticlePage = () => {
   const shortDescription = data?.content?.description.intro;
   const bannerURL = `https://i.simpalsmedia.com/point.md/news/370x194/${data?.content?.thumbnail}`;
   const timestamp = data?.content?.dates.posted;
-  const date = new Date(timestamp * 1000); // Convert seconds to milliseconds
+  const date = new Date(timestamp * 1000);
   const options = {
     year: 'numeric',
     month: 'long',
