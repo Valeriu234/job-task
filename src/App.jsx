@@ -1,10 +1,12 @@
 import './App.css';
-import Article from "./components/article";
+import NewsPage from './pages/news';
+import SelectedArticlePage from './pages/selected-article';
 
 function App() {
   return (
     <div className="App">
-         <Article/>
+      <NewsPage />
+      <SelectedArticlePage />
     </div>
   );
 }
